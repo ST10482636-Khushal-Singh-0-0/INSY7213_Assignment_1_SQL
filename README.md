@@ -28,41 +28,8 @@ The solution establishes referential integrity, eliminates data redundancy, conf
 
 ---
 
-## Execution Guide
-
-### 1. Schema Definition & Data Population
-Connect to the target database container (`XEPDB1`) and execute the base DDL and DML statements to create and populate all core tables[cite: 1, 3]:
-
-```sql
-@01_schema_and_data.sql
-
-```
-
-### 2. User Security & Privilege Configuration
-
-Connect with administrative privileges (`SYSDBA` / `SYSTEM`) to create users and assign access roles:
-
-```sql
-@02_user_management.sql
-
-```
-
-### 3. Procedural Reports & Analysis
-
-Enable server output before executing the PL/SQL blocks:
-
-```sql
-SET SERVEROUTPUT ON;
-
-
----
-
-
 **Author:** Khushal Singh
 
 **Student Number:** ST10482636
 
 **NOTE THAT AI WAS USED TO GET THIS FORMATING FOR GITHUB**
-```
-
-```
